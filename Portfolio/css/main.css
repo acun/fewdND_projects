@@ -1,28 +1,18 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-
-/* zocial */
-[class*="zocial-"]:before {
-  font: 1.6em 'zocial', sans-serif;
-}
-
-#main {
+#page1, #page2, #page3 {
   font: 62.5% 'Walter Turncoat', cursive;
+  display: block;
+  overflow: hidden;
 }
 
-.margin {
+.section-title {
   margin-bottom: 1em;
-  font-size: 5em;
-}
-
-.polaroid {
-  float: left;
-  margin-left: 5em;
+  font-size: 2.2vw;
 }
 
 .polaroid img {
-  width: 20vw;
-  border: 2em solid #fff;
-  border-bottom: 5em solid #fff;
+  max-width: 55%;
+  border: 15px solid #fff;
+  border-bottom: 40px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -30,58 +20,55 @@
   position: relative;
   bottom: 2em;
   color: #555;
-  font-size: 1vw;
+  font-size: 2vh;
   text-align: center;
- }
+}
 
 .bg-1 {
-    background-color: #BFC6D1;
-    color: #fff;
+  background-color: #BFC6D1;
+  color: #fff;
 }
 
 .bg-2 {
-    background-color: #474e5d;
-    color: #fff;
+  background-color: #474e5d;
+  color: #fff;
 }
 
 .bg-3 {
-    background-color: #fff;
-    color: #555;
+  background-color: #fff;
+  color: #555;
 }
 
 .bg-4 {
-    background-color: #2f2f2f;
-    color: #fff;
+  background-color: #2f2f2f;
+  color: #fff;
 }
 
 .container-fluid {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .navbar {
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 0.75em;
-    letter-spacing: 0.4em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 0.75em;
+  letter-spacing: 0.4em;
 }
 
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
 }
 
-#page1,
-#page2,
-#page3 {
-  display: block;
-  overflow: hidden;
+body {
+  padding-top: 40px;
 }
 
 .home-text {
-  position: sticky;
+  position: relative;
   bottom: 4em;
   font-size: 3vw;
   margin: 0 5em;
@@ -89,7 +76,6 @@
 
 .about-me {
   margin: 0 8em;
-  padding-left: 5em;
   font-size: 2vw;
 }
 
@@ -98,10 +84,6 @@
 }
 
 .col-sm-3 p {
-  font-size: 1em;
-}
-
-footer {
-  max-height: 5em;
-  font-size: 2em;
+  white-space: nowrap;
+  font-size: 2vw;
 }
