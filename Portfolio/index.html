@@ -1,21 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
   <title>GokceAcun WebDev</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
-
 </head>
 
 <body>
-
   <!-- Navbar -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -36,66 +35,56 @@
       </div>
     </div>
   </nav>
-
-  <section id="main">
-
   <!-- HOME PAGE   -->
-    <div id="page1" class="container-fluid bg-1 text-center">
-      <a id="home"></a>
-      <img class="img-responsive" src="img/logoportfolio.svg" style="display:inline" alt="Logo">
-      <p class="home-text">Hello there! Welcome to my portfolio page where I showcase all the web development work I have done so far!
-        To learn about me and see my work, scroll on down!</p>
-    </div>
-
-    <!-- ABOUT -->
-    <div id="page2" class="container-fluid bg-2 text-center">
-      <a id="about"></a>
-      <h3 class="margin">A Little Bit About Me</h3>
-        <div class="polaroid">
-          <img src="https://www.dropbox.com/s/q0o91e7kiowt2mn/foto.jpg?raw=1" alt="Picture of Me">
-          <div class="polaroid-title">
-            <p>Me in Kyrenia, Northern Cyprus, 2018</p>
-          </div>
-        </div>
-      <p class="about-me">Glad to have you here! My name is Gokce, but everybody calls me Acun. I'm originally an Interior Architect
-       with an MSc. in Sustainable Design. I have been thinking about changing careers for a while, but what solidifed my move on the right
-       direction was the scholarship I received from Google, in partnership with Udacity. Here, you can find my projects
-       from the Front-End Web Developer Scholarship classes.</p>
-    </div>
-
-    <!-- PORTFOLIO -->
-    <div id="page3" class="container-fluid bg-3 text-center">
-      <a id="portfolio"></a>
-      <h3 class="margin">My Projects (So Far)</h3><br>
-      <div class="row">
-        <div class="col-sm-3">
-          <p>This is my first project</p>
-          <img src="https://source.unsplash.com/1600x900/?web%20dev" class="img-responsive margin" style="width:100%" alt="A screenshot of my first project">
-        </div>
-        <div class="col-sm-3">
-          <p>This is my second project</p>
-          <img src="https://source.unsplash.com/1600x900/?computer" class="img-responsive margin" style="width:100%" alt="A screenshot of my second project">
-        </div>
-        <div class="col-sm-3">
-          <p>This is my third project</p>
-          <img src="https://source.unsplash.com/1600x900/?design" class="img-responsive margin" style="width:100%" alt="A screenshot of my third project">
-        </div>
-        <div class="col-sm-3">
-          <p>This is my fourth project</p>
-          <img src="https://source.unsplash.com/1600x900/?internet" class="img-responsive margin" style="width:100%" alt="A screenshot of my fourth project">
-        </div>
+  <div id="page1" class="container-fluid bg-1 text-center">
+    <a id="home"></a>
+    <img class="img-responsive" src="img/logoportfolio.svg" style="display:inline" alt="Logo">
+    <p class="home-text">Hello there! Welcome to my portfolio page where I showcase all the web development work I have done so far! To learn about me and see my work, scroll on down!</p>
+  </div>
+  <!-- ABOUT -->
+  <div id="page2" class="container-fluid bg-2 text-center">
+    <a id="about"></a>
+    <h3 class="section-title">A Little Bit About Me</h3>
+    <div class="polaroid">
+      <img src="https://www.dropbox.com/s/q0o91e7kiowt2mn/foto.jpg?raw=1" class="img-fluid" alt="Picture of Me">
+      <div class="polaroid-title">
+        <p>Me in Kyrenia, Northern Cyprus, 2018</p>
       </div>
     </div>
-
-    <footer class="container-fluid bg-4 text-center">
-      <div id="social">let's be friends:
-        <a class="zocial-twitter">Twitter</a>
-        <a class="zocial-facebook">Facebook</a>
-        <a class="zocial-googleplus">Google+</a>
+    <p class="about-me">Glad to have you here! My name is Gokce, but everybody calls me Acun. I'm originally an Interior Architect with an MSc. in Sustainable Design. I have been thinking about changing careers for a while, but what solidifed my move on the right direction
+      was the scholarship I received from Google, in partnership with Udacity. Here, you can find my projects from the Front-End Web Developer Scholarship classes.</p>
+  </div>
+  <!-- PORTFOLIO -->
+  <div id="page3" class="container-fluid bg-3 text-center">
+    <a id="portfolio"></a>
+    <h3 class="section-title">My Projects (So Far)</h3><br>
+    <div class="row">
+      <div class="col-sm-3">
+        <p>This is my first project</p>
+        <img src="https://source.unsplash.com/1600x900/?web%20dev" class="img-responsive margin" style="width:100%" alt="A screenshot of my first project">
       </div>
-    </footer>
-
-  </section>
-
+      <div class="col-sm-3">
+        <p>This is my second project</p>
+        <img src="https://source.unsplash.com/1600x900/?computer" class="img-responsive margin" style="width:100%" alt="A screenshot of my second project">
+      </div>
+      <div class="col-sm-3">
+        <p>This is my third project</p>
+        <img src="https://source.unsplash.com/1600x900/?design" class="img-responsive margin" style="width:100%" alt="A screenshot of my third project">
+      </div>
+      <div class="col-sm-3">
+        <p>This is my fourth project</p>
+        <img src="https://source.unsplash.com/1600x900/?internet" class="img-responsive margin" style="width:100%" alt="A screenshot of my fourth project">
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="container-fluid bg-4 text-center center-block">
+    <h4>let's be friends:</h4>
+    <a href=#><i id="social-fb" class="fab fa-facebook-square fa-3x social"></i></a>
+    <a href=#><i id="social-tw" class="fab fa-twitter-square fa-3x social"></i></a>
+    <a href=#><i id="social-gp" class="fab fa-google-plus-square fa-3x social"></i></a>
+    <a href="mailto:gokceacun@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+  </footer>
 </body>
+
 </html>
