@@ -24,6 +24,10 @@
   text-align: center;
 }
 
+.img-responsive {
+  display: block;
+}
+
 .bg-1 {
   background-color: #BFC6D1;
   color: #fff;
